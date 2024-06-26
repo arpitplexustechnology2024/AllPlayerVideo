@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  AllPlayerVideo
+//  AudioPlayer
 //
-//  Created by Arpit iOS Dev. on 26/06/24.
+//  Created by Arpit iOS Dev. on 25/06/24.
 //
 
 import UIKit

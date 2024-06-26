@@ -9,13 +9,19 @@
 /* Begin PBXBuildFile section */
 		BD1986922C2CC6BB00DE0AA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1986912C2CC6BB00DE0AA5 /* AppDelegate.swift */; };
 		BD1986942C2CC6BB00DE0AA5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1986932C2CC6BB00DE0AA5 /* SceneDelegate.swift */; };
-		BD1986962C2CC6BB00DE0AA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1986952C2CC6BB00DE0AA5 /* ViewController.swift */; };
 		BD1986992C2CC6BB00DE0AA5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BD1986982C2CC6BB00DE0AA5 /* Base */; };
 		BD19869B2C2CC6BC00DE0AA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD19869A2C2CC6BC00DE0AA5 /* Assets.xcassets */; };
 		BD19869E2C2CC6BC00DE0AA5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BD19869D2C2CC6BC00DE0AA5 /* Base */; };
 		BD1986A92C2CC6BC00DE0AA5 /* AllPlayerVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1986A82C2CC6BC00DE0AA5 /* AllPlayerVideoTests.swift */; };
 		BD1986B32C2CC6BC00DE0AA5 /* AllPlayerVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1986B22C2CC6BC00DE0AA5 /* AllPlayerVideoUITests.swift */; };
 		BD1986B52C2CC6BC00DE0AA5 /* AllPlayerVideoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1986B42C2CC6BC00DE0AA5 /* AllPlayerVideoUITestsLaunchTests.swift */; };
+		BD1986C52C2CC72100DE0AA5 /* YouTubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1986C12C2CC72100DE0AA5 /* YouTubeViewController.swift */; };
+		BD1986C62C2CC72100DE0AA5 /* VideoPlayerURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1986C22C2CC72100DE0AA5 /* VideoPlayerURLViewController.swift */; };
+		BD1986C72C2CC72100DE0AA5 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1986C32C2CC72100DE0AA5 /* VideoPlayerViewController.swift */; };
+		BD1986CA2C2CC76700DE0AA5 /* AudioURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1986C82C2CC76700DE0AA5 /* AudioURLViewController.swift */; };
+		BD1986CB2C2CC76700DE0AA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1986C92C2CC76700DE0AA5 /* ViewController.swift */; };
+		BD1986CE2C2CC7C900DE0AA5 /* ANIMAL.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BD1986CD2C2CC7C900DE0AA5 /* ANIMAL.mp3 */; };
+		BD1986D02C2CC81A00DE0AA5 /* videoplayback.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = BD1986CF2C2CC81A00DE0AA5 /* videoplayback.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,6 @@
 		BD19868E2C2CC6BB00DE0AA5 /* AllPlayerVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AllPlayerVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1986912C2CC6BB00DE0AA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BD1986932C2CC6BB00DE0AA5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BD1986952C2CC6BB00DE0AA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BD1986982C2CC6BB00DE0AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BD19869A2C2CC6BC00DE0AA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BD19869D2C2CC6BC00DE0AA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +54,13 @@
 		BD1986AE2C2CC6BC00DE0AA5 /* AllPlayerVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AllPlayerVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD1986B22C2CC6BC00DE0AA5 /* AllPlayerVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPlayerVideoUITests.swift; sourceTree = "<group>"; };
 		BD1986B42C2CC6BC00DE0AA5 /* AllPlayerVideoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllPlayerVideoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BD1986C12C2CC72100DE0AA5 /* YouTubeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouTubeViewController.swift; sourceTree = "<group>"; };
+		BD1986C22C2CC72100DE0AA5 /* VideoPlayerURLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerURLViewController.swift; sourceTree = "<group>"; };
+		BD1986C32C2CC72100DE0AA5 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		BD1986C82C2CC76700DE0AA5 /* AudioURLViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioURLViewController.swift; sourceTree = "<group>"; };
+		BD1986C92C2CC76700DE0AA5 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BD1986CD2C2CC7C900DE0AA5 /* ANIMAL.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ANIMAL.mp3; sourceTree = "<group>"; };
+		BD1986CF2C2CC81A00DE0AA5 /* videoplayback.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = videoplayback.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +111,13 @@
 		BD1986902C2CC6BB00DE0AA5 /* AllPlayerVideo */ = {
 			isa = PBXGroup;
 			children = (
+				BD1986CD2C2CC7C900DE0AA5 /* ANIMAL.mp3 */,
+				BD1986CF2C2CC81A00DE0AA5 /* videoplayback.mp4 */,
 				BD1986912C2CC6BB00DE0AA5 /* AppDelegate.swift */,
 				BD1986932C2CC6BB00DE0AA5 /* SceneDelegate.swift */,
-				BD1986952C2CC6BB00DE0AA5 /* ViewController.swift */,
+				BD1986CC2C2CC76F00DE0AA5 /* AudioPlayer */,
+				BD1986C42C2CC72100DE0AA5 /* VideoPlayer */,
+				BD1986C12C2CC72100DE0AA5 /* YouTubeViewController.swift */,
 				BD1986972C2CC6BB00DE0AA5 /* Main.storyboard */,
 				BD19869A2C2CC6BC00DE0AA5 /* Assets.xcassets */,
 				BD19869C2C2CC6BC00DE0AA5 /* LaunchScreen.storyboard */,
@@ -125,6 +141,25 @@
 				BD1986B42C2CC6BC00DE0AA5 /* AllPlayerVideoUITestsLaunchTests.swift */,
 			);
 			path = AllPlayerVideoUITests;
+			sourceTree = "<group>";
+		};
+		BD1986C42C2CC72100DE0AA5 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				BD1986C22C2CC72100DE0AA5 /* VideoPlayerURLViewController.swift */,
+				BD1986C32C2CC72100DE0AA5 /* VideoPlayerViewController.swift */,
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		BD1986CC2C2CC76F00DE0AA5 /* AudioPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				BD1986C82C2CC76700DE0AA5 /* AudioURLViewController.swift */,
+				BD1986C92C2CC76700DE0AA5 /* ViewController.swift */,
+			);
+			name = AudioPlayer;
+			path = ../AudioPlayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +268,9 @@
 			files = (
 				BD19869B2C2CC6BC00DE0AA5 /* Assets.xcassets in Resources */,
 				BD19869E2C2CC6BC00DE0AA5 /* Base in Resources */,
+				BD1986CE2C2CC7C900DE0AA5 /* ANIMAL.mp3 in Resources */,
 				BD1986992C2CC6BB00DE0AA5 /* Base in Resources */,
+				BD1986D02C2CC81A00DE0AA5 /* videoplayback.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +295,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BD1986962C2CC6BB00DE0AA5 /* ViewController.swift in Sources */,
+				BD1986C62C2CC72100DE0AA5 /* VideoPlayerURLViewController.swift in Sources */,
 				BD1986922C2CC6BB00DE0AA5 /* AppDelegate.swift in Sources */,
+				BD1986C72C2CC72100DE0AA5 /* VideoPlayerViewController.swift in Sources */,
+				BD1986CA2C2CC76700DE0AA5 /* AudioURLViewController.swift in Sources */,
+				BD1986CB2C2CC76700DE0AA5 /* ViewController.swift in Sources */,
+				BD1986C52C2CC72100DE0AA5 /* YouTubeViewController.swift in Sources */,
 				BD1986942C2CC6BB00DE0AA5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
