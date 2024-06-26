@@ -157,16 +157,13 @@
 			children = (
 				BD1986CD2C2CC7C900DE0AA5 /* ANIMAL.mp3 */,
 				BD1986CF2C2CC81A00DE0AA5 /* videoplayback.mp4 */,
-				BD1986912C2CC6BB00DE0AA5 /* AppDelegate.swift */,
+				BD1986DB2C2CD65800DE0AA5 /* Delegate */,
 				BD1986D32C2CCB9800DE0AA5 /* AudioPlayer */,
-				BD1986932C2CC6BB00DE0AA5 /* SceneDelegate.swift */,
 				BD1986C42C2CC72100DE0AA5 /* VideoPlayer */,
-				BD1986C12C2CC72100DE0AA5 /* YouTubeViewController.swift */,
-				BD1986D62C2CCC4D00DE0AA5 /* VideoDetailViewController.swift */,
-				BD1986D82C2CCC9E00DE0AA5 /* VideoTableViewCell.swift */,
+				BD1986DA2C2CD63600DE0AA5 /* YouTubePlayer */,
 				BD1986972C2CC6BB00DE0AA5 /* Main.storyboard */,
-				BD19869A2C2CC6BC00DE0AA5 /* Assets.xcassets */,
 				BD19869C2C2CC6BC00DE0AA5 /* LaunchScreen.storyboard */,
+				BD19869A2C2CC6BC00DE0AA5 /* Assets.xcassets */,
 				BD19869F2C2CC6BC00DE0AA5 /* Info.plist */,
 			);
 			path = AllPlayerVideo;
@@ -205,6 +202,25 @@
 				BD1986D22C2CCB9800DE0AA5 /* ViewController.swift */,
 			);
 			path = AudioPlayer;
+			sourceTree = "<group>";
+		};
+		BD1986DA2C2CD63600DE0AA5 /* YouTubePlayer */ = {
+			isa = PBXGroup;
+			children = (
+				BD1986C12C2CC72100DE0AA5 /* YouTubeViewController.swift */,
+				BD1986D62C2CCC4D00DE0AA5 /* VideoDetailViewController.swift */,
+				BD1986D82C2CCC9E00DE0AA5 /* VideoTableViewCell.swift */,
+			);
+			path = YouTubePlayer;
+			sourceTree = "<group>";
+		};
+		BD1986DB2C2CD65800DE0AA5 /* Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				BD1986912C2CC6BB00DE0AA5 /* AppDelegate.swift */,
+				BD1986932C2CC6BB00DE0AA5 /* SceneDelegate.swift */,
+			);
+			path = Delegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
