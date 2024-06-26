@@ -22,7 +22,6 @@ class YouTubeViewController: UIViewController, UITableViewDelegate, UITableViewD
         ("Video 8", "yZomIAahIZc", "https://img.youtube.com/vi/yZomIAahIZc/0.jpg"),
         ("Video 9", "w3OmUdpewOw", "https://img.youtube.com/vi/w3OmUdpewOw/0.jpg"),
         ("Video 10", "iraezTzB938", "https://img.youtube.com/vi/iraezTzB938/0.jpg"),
-        // Add more videos here
     ]
 
     override func viewDidLoad() {
@@ -40,7 +39,6 @@ class YouTubeViewController: UIViewController, UITableViewDelegate, UITableViewD
         let cell = tableView.dequeueReusableCell(withIdentifier: "VideoTableViewCell", for: indexPath) as! VideoTableViewCell
         let video = videos[indexPath.row]
         
-        // Load thumbnail image
         if let url = URL(string: video.2) {
             URLSession.shared.dataTask(with: url) { data, response, error in
                 if let data = data {
