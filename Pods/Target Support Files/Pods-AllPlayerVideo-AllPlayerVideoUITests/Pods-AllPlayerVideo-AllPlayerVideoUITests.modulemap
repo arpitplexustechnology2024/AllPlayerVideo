@@ -1,0 +1,6 @@
+framework module Pods_AllPlayerVideo_AllPlayerVideoUITests {
+  umbrella header "Pods-AllPlayerVideo-AllPlayerVideoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
