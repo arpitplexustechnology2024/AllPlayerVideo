@@ -316,6 +316,9 @@
 				Base,
 			);
 			mainGroup = BD1986852C2CC6BB00DE0AA5;
+			packageReferences = (
+				BD1986DE2C2CE14F00DE0AA5 /* XCRemoteSwiftPackageReference "KSPlayer" */,
+			);
 			productRefGroup = BD19868F2C2CC6BB00DE0AA5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -821,6 +824,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BD1986DE2C2CE14F00DE0AA5 /* XCRemoteSwiftPackageReference "KSPlayer" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kingslay/KSPlayer";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.3.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = BD1986862C2CC6BB00DE0AA5 /* Project object */;
 }
